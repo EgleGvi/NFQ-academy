@@ -1,0 +1,35 @@
+table.table-bordered.time-picker-table {
+    width: 650px;
+    height: 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.round:hover {
+    background-color: #42f4f4;
+    color: black;
+}
+
+.previous {
+    background-color: #ddd;
+    color: white;
+}
+
+.next {
+    background-color: #ddd;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}

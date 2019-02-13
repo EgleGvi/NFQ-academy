@@ -5,28 +5,29 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="app.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/app.css" type="text/css" media="all">
     <title>Customers</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <div>
-            <h2>Pasirinkite datą</h2>
+            <h2>Pasirinkite datą ir laiką</h2>
         </div>
         <div>
-            <a class="">
-                <span>Prev</span>
-            </a>
+            <div>
+                <a href="#" class="previous round">&#8249;</a>
+            </div>
             <div>
                 <span class="month">February</span>&nbsp;
                 <span class="year">2019</span>
             </div>
-            <a class="">
-                <span>Next</span>
-            </a>
+            <div>
+                <a href="#" class="next round">&#8250;</a>
+            </div>
         </div>
         <div>
-            <table class="">
+            <table>
                 <tr>
                     <th>Mo</th>
                     <th>Tu</th>
@@ -81,69 +82,69 @@
             </table>
         </div>
         <div>
-            <table>
+            <table class="table-bordered time-picker-table">
                 <tr>
                     <td><a href="#">10:00</a></td>
-                    <td><a href="#">10:15</a></td>
-                    <td><a href="#">10:30</a></td>
-                    <td><a href="#">10:45</a></td>
-                </tr>
-                <tr>
                     <td><a href="#">11:00</a></td>
-                    <td><a href="#">11:15</a></td>
-                    <td><a href="#">11:30</a></td>
-                    <td><a href="#">11:45</a></td>
-                </tr>
-                <tr>
                     <td><a href="#">12:00</a></td>
-                    <td><a href="#">12:15</a></td>
-                    <td><a href="#">12:30</a></td>
-                    <td><a href="#">12:45</a></td>
-                </tr>
-                <tr>
                     <td><a href="#">13:00</a></td>
-                    <td><a href="#">13:15</a></td>
-                    <td><a href="#">13:30</a></td>
-                    <td><a href="#">13:45</a></td>
-                </tr>
-                <tr>
                     <td><a href="#">14:00</a></td>
-                    <td><a href="#">14:15</a></td>
-                    <td><a href="#">14:30</a></td>
-                    <td><a href="#">14:45</a></td>
-                </tr>
-                <tr>
                     <td><a href="#">15:00</a></td>
-                    <td><a href="#">15:15</a></td>
-                    <td><a href="#">15:30</a></td>
-                    <td><a href="#">15:45</a></td>
-                </tr>
-                <tr>
                     <td><a href="#">16:00</a></td>
-                    <td><a href="#">16:15</a></td>
-                    <td><a href="#">16:30</a></td>
-                    <td><a href="#">16:45</a></td>
-                </tr>
-                <tr>
                     <td><a href="#">17:00</a></td>
-                    <td><a href="#">17:15</a></td>
-                    <td><a href="#">17:30</a></td>
-                    <td><a href="#">17:45</a></td>
-                </tr>
-                <tr>
                     <td><a href="#">18:00</a></td>
-                    <td><a href="#">18:15</a></td>
-                    <td><a href="#">18:30</a></td>
-                    <td><a href="#">18:45</a></td>
+                    <td><a href="#">19:00</a></td>
                 </tr>
                 <tr>
-                    <td><a href="#">19:00</a></td>
+                    <td><a href="#">10:15</a></td>
+                    <td><a href="#">11:15</a></td>
+                    <td><a href="#">12:15</a></td>
+                    <td><a href="#">13:15</a></td>
+                    <td><a href="#">14:15</a></td>
+                    <td><a href="#">15:15</a></td>
+                    <td><a href="#">16:15</a></td>
+                    <td><a href="#">17:15</a></td>
+                    <td><a href="#">18:15</a></td>
                     <td><a href="#">19:15</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">10:30</a></td>
+                    <td><a href="#">11:30</a></td>
+                    <td><a href="#">12:30</a></td>
+                    <td><a href="#">13:30</a></td>
+                    <td><a href="#">14:30</a></td>
+                    <td><a href="#">15:30</a></td>
+                    <td><a href="#">16:30</a></td>
+                    <td><a href="#">17:30</a></td>
+                    <td><a href="#">18:30</a></td>
                     <td><a href="#">19:30</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">10:45</a></td>
+                    <td><a href="#">11:45</a></td>
+                    <td><a href="#">12:45</a></td>
+                    <td><a href="#">13:45</a></td>
+                    <td><a href="#">14:45</a></td>
+                    <td><a href="#">15:45</a></td>
+                    <td><a href="#">16:45</a></td>
+                    <td><a href="#">17:45</a></td>
+                    <td><a href="#">18:45</a></td>
                     <td><a href="#">19:45</a></td>
                 </tr>
             </table>
         </div>
+        <div>
+            <form>
+                <input type="text" name="firstname" placeholder="vardas"><br>
+                <input type="text" name="lastname" placeholder="pavarde"><br>
+                <input type="text" name="phoneNumber" placeholder="tel. nr."><br>
+                <input type="radio" name="gender" value="male" checked> Vyras<br>
+                <input type="radio" name="gender" value="female"> Moteris<br>
+                <input type="submit" value="Registruotis">
+            </form>
+        </div>
+
     </div>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

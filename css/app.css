@@ -1,3 +1,19 @@
+.header-menu {
+    background-color: #34c1d3;
+    width: auto;
+    height: 4em;
+}
+
+.menu-right li {
+    float: right;
+    list-style-type:none;
+    padding: 5px;
+}
+
+.menu-right {
+    height: 1em;
+}
+
 table.table-bordered.time-picker-table {
     width: 650px;
     height: 200px;
@@ -16,20 +32,24 @@ a:hover {
 }
 
 a.round:hover {
-    background-color: #42f4f4;
+    background-color: #dcdcdc;
     color: black;
 }
 
 .previous {
     background-color: #ddd;
-    color: white;
+    color: black;
 }
 
 .next {
     background-color: #ddd;
-    color: white;
+    color: black;
 }
 
 .round {
     border-radius: 50%;
+}
+
+.month {
+    float: left;
 }

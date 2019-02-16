@@ -2,7 +2,11 @@
 
 <div class="page-wrapper">
     <div class="container">
-        <h3>Jūsų rezervacija sėkminga!</h3>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="successful">Rezervacija sėkminga!</h3>
+            </div>
+        </div>
     </div>
 </div>
 

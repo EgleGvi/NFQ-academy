@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'employees-header.php';?>
 
 <div class="page-wrapper">
     <div class="container">
@@ -22,6 +22,36 @@
             <div class="col-md-4">
                 <div id="datepickerfield"></div>
             </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Data ir laikas</th>
+                        <th>Vardas Pavardė</th>
+                        <th>Pastabos</th>
+                        <th>Veiksmai</th>
+                    </tr>
+                    <tr>
+                        <td>2019-01-23 12:45</td>
+                        <td>Ona Onutė</td>
+                        <td>Plaukų dažymas</td>
+                        <td><a class="del-btn" href="#">Atšaukti</a></td>
+                   </tr>
+                    <tr>
+                        <td>2019-02-23 16:00</td>
+                        <td>Onytė Ona</td>
+                        <td>Plaukų kirpimas</td>
+                        <td><a class="del-btn" href="#">Atšaukti</a></td>
+                    </tr>
+                    <tr>
+                        <td>2019-02-23 12:30</td>
+                        <td>Ona Onutė</td>
+                        <td></td>
+                        <td><a class="del-btn" href="#">Atšaukti</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
         </div>
     </div>
 </div>

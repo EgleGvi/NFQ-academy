@@ -3,6 +3,14 @@
 <div class="page-wrapper">
     <div class="container">
         <div class="row">
+            <div class="col-md-4">
+                <div onchange="changeDate(this.value)" id="js-date-picker-field"></div>
+            </div>
+            <div class="col-md-8">
+                <div id="js-available-times"></div>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-8">
                 <form action="register.php">
                     <div class="form-row">
@@ -19,42 +27,36 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-4">
-                <div onchange="changeDate(this.value)" id="js-date-picker-field"></div>
-            </div>
-            <div id="js-available-times">
-
-            </div>
+        </div>
         <div class="row">
             <div class="col-md-12">
-                <table class="table table-bordered">
-                    <tr>
-                        <th>Data ir laikas</th>
-                        <th>Vardas Pavardė</th>
-                        <th>Pastabos</th>
-                        <th>Veiksmai</th>
-                    </tr>
-                    <tr>
-                        <td>2019-01-23 12:45</td>
-                        <td>Ona Onutė</td>
-                        <td>Plaukų dažymas</td>
-                        <td><a class="del-btn" href="#">Atšaukti</a></td>
-                   </tr>
-                    <tr>
-                        <td>2019-02-23 16:00</td>
-                        <td>Onytė Ona</td>
-                        <td>Plaukų kirpimas</td>
-                        <td><a class="del-btn" href="#">Atšaukti</a></td>
-                    </tr>
-                    <tr>
-                        <td>2019-02-23 12:30</td>
-                        <td>Ona Onutė</td>
-                        <td></td>
-                        <td><a class="del-btn" href="#">Atšaukti</a></td>
-                    </tr>
-                </table>
+                <div class="table">
+                    <div class="client-info-wrapper">
+                        <h4>Data ir laikas</h4>
+                        <h4>Vardas Pavardė</h4>
+                        <h4>Pastabos</h4>
+                        <h4>Veiksmai</h4>
+                    </div>
+                    <div class="client-info-wrapper2">
+                        <div class="client1">2019-01-23 12:45</div>
+                        <div class="client1">Ona Onutė</div>
+                        <div class="client1">Plaukų dažymas</div>
+                        <div class="client1"><a class="del-btn" href="#">Atšaukti</a></div>
+                   </div>
+                    <div class="client-info-wrapper3">
+                        <div>2019-02-23 16:00</div>
+                        <div>Onytė Ona</div>
+                        <div>Plaukų kirpimas</div>
+                        <div><a class="del-btn" href="#">Atšaukti</a></div>
+                    </div>
+                    <div class="client-info-wrapper4">
+                        <div>2019-02-23 12:30</div>
+                        <div>Ona Onutė</div>
+                        <div></div>
+                        <div><a class="del-btn" href="#">Atšaukti</a></div>
+                    </div>
+                </div>
             </div>
-        </div>
         </div>
     </div>
 </div>

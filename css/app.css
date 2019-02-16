@@ -109,3 +109,36 @@ a:hover {
 .del-btn:hover {
     color: black;
 }
+
+.time-not-found {
+    margin-left: 16px;
+}
+
+.client-info-wrapper h4{
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.table {
+    border: 1px solid black;
+}
+
+.client1 {
+    float: left;
+}
+
+.available-time-pick {
+    float: left;
+}
+
+.available-time-pick a{
+    color: black;
+    background-color: #34c1d3;
+    border-radius: 4px;
+    margin: 10px 2px 10px 10px;
+}
+
+.available-time-pick a:hover {
+    color: white;
+}

@@ -61,11 +61,11 @@ function changeDate(date) {
     var html = "";
     if(availableTimes !== undefined) {
         availableTimes.forEach(function (time) {
-            html += '<div>' + time + '</div>';
+            html += '<div class="available-time-pick"><a href="#">' + time + '</a></div>';
         });
     }
     else {
-        html = '<p>Nerasta galimų laikų</p>';
+        html = '<h3 class="time-not-found">Nerasta galimų laikų</h3>';
     }
     $('#js-available-times').html(html);
     // console.log(availableTimes);

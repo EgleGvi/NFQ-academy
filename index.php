@@ -7,13 +7,21 @@
                 <div>
                     <h3 class="pick-date-time">Pasirinkite datą ir laiką</h3>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
                 <div>
                     <div onchange="changeDate(this.value)" id="js-date-picker-field"></div>
                 </div>
-                <div id="js-available-times">
-
-                </div>
-                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-8">
+                <div id="js-available-times"></div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-12">
                 <div class="form-wrapper">
                     <form action="register.php">
                         <div class="form-row">

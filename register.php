@@ -1,4 +1,5 @@
-<?php include 'header.php'; ?>
+<?php include 'head.php';?>
+<?php include 'header.php';?>
 
 <div class="page-wrapper">
     <div class="container">

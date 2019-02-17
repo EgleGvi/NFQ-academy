@@ -135,7 +135,26 @@ ul#menu li {
     font-weight: bold;
 }
 
+.fa-search {
+    font-size: 27px;
+    position: absolute;
+    top: 5px;
+    left: 231px;
+    color: #34c1d3;
+}
 
+input.search-input {
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+    border-color: #34c1d3;
+    padding: 10px;
+    margin: 0;
+}
+
+.employees-search {
+    margin-left: 0;
+}
 
 /*responsive*/
 @media only screen and (max-width: 320px){

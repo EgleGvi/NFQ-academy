@@ -1,3 +1,4 @@
+<?php include 'head.php';?>
 <?php include 'employees-header.php';?>
 
 <div class="page-wrapper">
@@ -31,6 +32,12 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
+                    <div class="employees-search">
+                        <form action="">
+                            <input class="search-input" type="text" name="paieska" placeholder="paieška">
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </form>
+                    </div>
                     <div>
                         <ul id="menu">
                             <li class="list-menu">Data ir laikas</li>

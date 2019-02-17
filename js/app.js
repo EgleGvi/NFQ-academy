@@ -65,7 +65,7 @@ function changeDate(date) {
         });
     }
     else {
-        html = '<h3 class="time-not-found">Nerasta galimų laikų</h3>';
+        html = '<p class="time-not-found">Nerasta galimų laikų</p>';
     }
     $('#js-available-times').html(html);
     // console.log(availableTimes);

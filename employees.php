@@ -39,16 +39,18 @@
                         </form>
                     </div>
                     <div>
-                        <ul id="menu">
-                            <li class="list-menu">Data ir laikas</li>
-                            <li class="list-menu">Vardas Pavardė</li>
-                            <li class="list-menu">Pastabos</li>
-                            <li class="list-menu">Veiksmai</li>
-                        </ul>
+                        <div class="table-header">
+                            <ul id="menu">
+                                <li class="list-menu">Data ir laikas</li>
+                                <li class="list-menu">Vardas Pavardė</li>
+                                <li class="list-menu">Pastabos</li>
+                                <li class="list-menu">Veiksmai</li>
+                            </ul>
+                        </div>
                         <ul id="menu">
                             <li>2019-01-23 12:45</li>
                             <li>Ona Onutė</li>
-                            <li></li>
+                            <li>Plaukų dažymas</li>
                             <li><a class="del-btn" href="#">Atšaukti</a></li>
                        </ul>
                         <ul id="menu">
